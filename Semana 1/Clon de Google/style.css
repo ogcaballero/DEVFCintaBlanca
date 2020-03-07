@@ -1,0 +1,107 @@
+/* Estilo general del body y otros */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  text-align: center;
+  text direction: none;
+
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+header{
+  height: 50px;
+}
+
+header nav{
+  float: right;
+  margin: 15px 20px 15px 20px
+}
+
+header a{
+  margin-left: 15px 10px;
+  font-size: 13px;
+}
+
+header img{
+  vertical-align: middle;
+}
+#apps {
+  width: 15px;
+}
+
+#foto-perfil{
+width: 35px;
+}
+
+.circular--square {
+  border-radius: 50%;
+}
+
+/* Estilo de la seccion de logo */
+.logo-google{
+  max-width: 25%
+  margin: 0 auto;
+}
+.logo-google img{
+  max-width: 90%;
+}
+.buscador input {
+  background: url(Lupa.png) no-repeat scroll 2px 2px;
+  padding-left: 30px;
+}
+
+main{
+  padding: 10%;
+}
+.buscador input {
+  width: 50%;
+  height: 8px;
+  border-radius: 35px;
+  margin: 20px;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.buscador input:focus{
+  outline: none;
+  box-shadow: 1px 1px 3px grey;
+}
+footer {
+  background-color: rgb(221, 228, 228);
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  position: fixed;
+}
+footer nav{
+  padding-top: 15px;
+}
+footer nav a{
+  padding: 0 12px;
+  font-size: 13px;
+  color:grey;
+}
+
+.nav-pais {
+  text-align: left;
+
+}
+
+.nav-izq {
+  list-style-type: none;
+float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-der {
+  list-style-type: none;
+float: right;
+  margin: 0;
+  padding: 0;
+}
